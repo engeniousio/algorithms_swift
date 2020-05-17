@@ -12,7 +12,7 @@ import XCTest
 class FizzBuzzTests: XCTestCase {
 
     func testFizzBuzz5() {
-        let _ : Int = 5
+        let num: Int = 5
         var expectedResult = [String]()
         
         expectedResult.append("1")
@@ -22,12 +22,12 @@ class FizzBuzzTests: XCTestCase {
         expectedResult.append("Buzz")
         
         let fizzBuzz = FizzBuzz()
-        let actualResult = fizzBuzz.fizzBuzz(n: 5)
+        let actualResult = fizzBuzz.fizzBuzz(num: num)
         XCTAssertEqual(expectedResult, actualResult)
     }
     
     func testFizzBuzz15() {
-        let _ : Int = 15
+        let num: Int = 15
         var expectedResult = [String]()
         
         expectedResult.append("1")
@@ -47,7 +47,7 @@ class FizzBuzzTests: XCTestCase {
         expectedResult.append("FizzBuzz")
         
         let fizzBuzz = FizzBuzz()
-        let actualResult = fizzBuzz.fizzBuzz(n: 15)
+        let actualResult = fizzBuzz.fizzBuzz(num: num)
         XCTAssertEqual(expectedResult, actualResult)
     }
 }

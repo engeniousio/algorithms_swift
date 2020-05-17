@@ -18,8 +18,8 @@ class Palindrome {
 
         var reversedStr = ""
 
-        for i in str {
-            reversedStr.insert(i, at: str.startIndex)
+        for char in str {
+            reversedStr.insert(char, at: str.startIndex)
         }
         return reversedStr == str
 
@@ -33,11 +33,11 @@ class Palindrome {
         
         let leftIndex = str.startIndex
         let rightIndex = str.index(before: str.endIndex)
-        for i in 0..<str.count / 2 {
-            let leftChar = str[str.index(leftIndex, offsetBy: i)]
-            let rightChar = str[str.index(rightIndex, offsetBy: -i)]
-            if (leftChar != rightChar) {
-                return false;
+        for index in 0..<str.count / 2 {
+            let leftChar = str[str.index(leftIndex, offsetBy: index)]
+            let rightChar = str[str.index(rightIndex, offsetBy: -index)]
+            if leftChar != rightChar {
+                return false
             }
         }
         return true

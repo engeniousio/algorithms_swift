@@ -6,7 +6,6 @@
 //  Copyright © 2020 tatuliana. All rights reserved.
 //
 
-
 //        1. Input: What is the input parameter?
 //        2. Output: What is the datatype of your answer that your function has to return?
 //        3. What data structures and methods associated with it will be used?
@@ -31,20 +30,18 @@ class MostRepeatedChar {
         guard !str.isEmpty else { return "0" }
         
         var result: [Character: Int] = [:]
-        for i in str {
-            if result[i] == nil {
-                result[i] = 1
+        for char in str {
+            if result[char] == nil {
+                result[char] = 1
             } else {
-                result[i]! += 1
+                result[char]! += 1
             }
         }
         
         let maxValue = result.values.max()
         var winner = Character("*")
-        for (key, value) in result {
-            if value == maxValue {
-               winner = key
-            }
+        for (key, value) in result where value == maxValue {
+            winner = key
         }
         return winner
     }

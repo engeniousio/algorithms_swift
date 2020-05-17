@@ -26,7 +26,7 @@ class MergeIntervalsTests: XCTestCase {
         var intervals = [[5, 8], [2, 4], [1, 3], [6, 7]]
         let mergeIntervals = MergeIntervals()
     
-        let expectedResult = [[1, 4],[5, 8]]
+        let expectedResult = [[1, 4], [5, 8]]
         let actualResult = mergeIntervals.merge(intervals: &intervals)
     
         XCTAssertEqual(expectedResult, actualResult)

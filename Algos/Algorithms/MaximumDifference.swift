@@ -38,13 +38,13 @@ class MaximumDifference {
         var min = arr[0]
         var max = arr[0]
 
-        for i in 0..<arr.count {
-            if arr[i] > max {
-                max = arr[i]
+        for index in 0..<arr.count {
+            if arr[index] > max {
+                max = arr[index]
             }
 
-            if arr[i] < min {
-                min = arr[i]
+            if arr[index] < min {
+                min = arr[index]
             }
         }
         return max - min

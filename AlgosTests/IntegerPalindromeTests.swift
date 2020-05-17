@@ -13,25 +13,25 @@ import XCTest
 class IntegerPalindromeTests: XCTestCase {
     
     func testIntegerPalindrome() {
-        let x = 1234321
+        let num = 1234321
         let integerPalindrome = IntegerPalindrome()
-        let actualResult = integerPalindrome.isPalindrome(x)
+        let actualResult = integerPalindrome.isPalindrome(num)
     
         XCTAssertTrue(actualResult)
     }
     
     func testIntegerNotPalindrome() {
-        let x = 1934321
+        let num = 1934321
         let integerPalindrome = IntegerPalindrome()
-        let actualResult = integerPalindrome.isPalindrome(x)
+        let actualResult = integerPalindrome.isPalindrome(num)
     
         XCTAssertFalse(actualResult)
     }
     
     func testNegativeIntegerNotPalindrome() {
-        let x = -1234321
+        let num = -1234321
         let integerPalindrome = IntegerPalindrome()
-        let actualResult = integerPalindrome.isPalindrome(x)
+        let actualResult = integerPalindrome.isPalindrome(num)
     
         XCTAssertFalse(actualResult)
     }

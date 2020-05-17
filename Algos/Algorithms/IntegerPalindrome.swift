@@ -21,10 +21,10 @@ class IntegerPalindrome {
         // cut off "1"
         // compare "1331" and "1331"
 
-    func isPalindrome(_ x: Int) -> Bool {
-        guard x > 0 else { return false }
+    func isPalindrome(_ num: Int) -> Bool {
+        guard num > 0 else { return false }
 
-        var xOld = x
+        var xOld = num
         var reversedX = 0
 
         while xOld > 0 {
@@ -32,12 +32,11 @@ class IntegerPalindrome {
             reversedX = reversedX * 10 + reminder
             xOld /= 10
         }
-        return x == reversedX
+        return num == reversedX
     }
         // time: O(log10(n))
         // memory: O(1)
 }
-
 
     // 17 % 2 = 1
     // 17 % 10 = 7
@@ -51,8 +50,6 @@ class IntegerPalindrome {
 
     // 5 / 10 = 0
 
-
     // log2(4) = 2
-
 
      // 100000  / 10 ? 6 times

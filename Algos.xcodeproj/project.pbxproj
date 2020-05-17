@@ -13,6 +13,8 @@
 		9D829FBF247108EF00AF04D5 /* MergeIntervalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D829FBE247108EF00AF04D5 /* MergeIntervalsTests.swift */; };
 		9D829FC12471093400AF04D5 /* IntegerPalindromeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D829FC02471093400AF04D5 /* IntegerPalindromeTests.swift */; };
 		9D829FC32471095500AF04D5 /* MostRepeatedCharTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D829FC22471095500AF04D5 /* MostRepeatedCharTests.swift */; };
+		9D829FC62471268400AF04D5 /* ChangeStringWithOffsetNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D829FC52471268400AF04D5 /* ChangeStringWithOffsetNumber.swift */; };
+		9D829FC8247126A800AF04D5 /* ChangeStringWithOffsetNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D829FC7247126A800AF04D5 /* ChangeStringWithOffsetNumberTests.swift */; };
 		9D88375F2461154C00E7650E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88375E2461154C00E7650E /* AppDelegate.swift */; };
 		9D8837612461154C00E7650E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8837602461154C00E7650E /* SceneDelegate.swift */; };
 		9D8837632461154C00E7650E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8837622461154C00E7650E /* ViewController.swift */; };
@@ -55,6 +57,8 @@
 		9D829FBE247108EF00AF04D5 /* MergeIntervalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervalsTests.swift; sourceTree = "<group>"; };
 		9D829FC02471093400AF04D5 /* IntegerPalindromeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerPalindromeTests.swift; sourceTree = "<group>"; };
 		9D829FC22471095500AF04D5 /* MostRepeatedCharTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostRepeatedCharTests.swift; sourceTree = "<group>"; };
+		9D829FC52471268400AF04D5 /* ChangeStringWithOffsetNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeStringWithOffsetNumber.swift; sourceTree = "<group>"; };
+		9D829FC7247126A800AF04D5 /* ChangeStringWithOffsetNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeStringWithOffsetNumberTests.swift; sourceTree = "<group>"; };
 		9D88375B2461154C00E7650E /* Algos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D88375E2461154C00E7650E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D8837602461154C00E7650E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -153,6 +157,7 @@
 				9D829FBE247108EF00AF04D5 /* MergeIntervalsTests.swift */,
 				9D829FC02471093400AF04D5 /* IntegerPalindromeTests.swift */,
 				9D829FC22471095500AF04D5 /* MostRepeatedCharTests.swift */,
+				9D829FC7247126A800AF04D5 /* ChangeStringWithOffsetNumberTests.swift */,
 				9D8837772461154D00E7650E /* Info.plist */,
 			);
 			path = AlgosTests;
@@ -169,6 +174,7 @@
 				9D829FB82471078900AF04D5 /* MergeIntervals.swift */,
 				9D829FBA247107D500AF04D5 /* IntegerPalindrome.swift */,
 				9D829FBC2471087200AF04D5 /* MostRepeatedChar.swift */,
+				9D829FC52471268400AF04D5 /* ChangeStringWithOffsetNumber.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -181,7 +187,6 @@
 				22BE4ED1A44D11D38215AE21 /* Pods-AlgosTests.debug.xcconfig */,
 				57F84A732506027DF0F05B1C /* Pods-AlgosTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -363,6 +368,7 @@
 				9D829FB92471078900AF04D5 /* MergeIntervals.swift in Sources */,
 				9D883782246120E900E7650E /* FizzBuzz.swift in Sources */,
 				9D8837862461215800E7650E /* Palindrome.swift in Sources */,
+				9D829FC62471268400AF04D5 /* ChangeStringWithOffsetNumber.swift in Sources */,
 				9D8837842461213F00E7650E /* MaximumDifference.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,6 +381,7 @@
 				9D88378E2461561A00E7650E /* PalindromeTests.swift in Sources */,
 				9D88379024615B6C00E7650E /* SortArrayOfZeroOnesTests.swift in Sources */,
 				9D8837762461154D00E7650E /* FizzBuzzTests.swift in Sources */,
+				9D829FC8247126A800AF04D5 /* ChangeStringWithOffsetNumberTests.swift in Sources */,
 				9D829FC32471095500AF04D5 /* MostRepeatedCharTests.swift in Sources */,
 				9D8837922461661400E7650E /* SumElementsInArrayTests.swift in Sources */,
 				9D88378C2461468700E7650E /* MaximumDifferenceTests.swift in Sources */,

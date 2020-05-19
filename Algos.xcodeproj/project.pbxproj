@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D6F3ACC2473C215008AABAC /* MoveZeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6F3ACB2473C215008AABAC /* MoveZeros.swift */; };
+		9D6F3ACE2473C228008AABAC /* MoveZerosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6F3ACD2473C228008AABAC /* MoveZerosTests.swift */; };
+		9D6F3AD02473D6B4008AABAC /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6F3ACF2473D6B4008AABAC /* TwoSum.swift */; };
+		9D6F3AD22473D6C4008AABAC /* TwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6F3AD12473D6C4008AABAC /* TwoSumTests.swift */; };
 		9D829FB92471078900AF04D5 /* MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D829FB82471078900AF04D5 /* MergeIntervals.swift */; };
 		9D829FBB247107D500AF04D5 /* IntegerPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D829FBA247107D500AF04D5 /* IntegerPalindrome.swift */; };
 		9D829FBD2471087200AF04D5 /* MostRepeatedChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D829FBC2471087200AF04D5 /* MostRepeatedChar.swift */; };
@@ -51,6 +55,10 @@
 		57F84A732506027DF0F05B1C /* Pods-AlgosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgosTests.release.xcconfig"; path = "Target Support Files/Pods-AlgosTests/Pods-AlgosTests.release.xcconfig"; sourceTree = "<group>"; };
 		5E831044CD67240C5089A5F2 /* Pods_Algos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Algos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C0A6AC0827DD521A77B649E /* Pods-Algos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algos.release.xcconfig"; path = "Target Support Files/Pods-Algos/Pods-Algos.release.xcconfig"; sourceTree = "<group>"; };
+		9D6F3ACB2473C215008AABAC /* MoveZeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeros.swift; sourceTree = "<group>"; };
+		9D6F3ACD2473C228008AABAC /* MoveZerosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZerosTests.swift; sourceTree = "<group>"; };
+		9D6F3ACF2473D6B4008AABAC /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		9D6F3AD12473D6C4008AABAC /* TwoSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTests.swift; sourceTree = "<group>"; };
 		9D829FB82471078900AF04D5 /* MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervals.swift; sourceTree = "<group>"; };
 		9D829FBA247107D500AF04D5 /* IntegerPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerPalindrome.swift; sourceTree = "<group>"; };
 		9D829FBC2471087200AF04D5 /* MostRepeatedChar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostRepeatedChar.swift; sourceTree = "<group>"; };
@@ -158,6 +166,8 @@
 				9D829FC02471093400AF04D5 /* IntegerPalindromeTests.swift */,
 				9D829FC22471095500AF04D5 /* MostRepeatedCharTests.swift */,
 				9D829FC7247126A800AF04D5 /* ChangeStringWithOffsetNumberTests.swift */,
+				9D6F3ACD2473C228008AABAC /* MoveZerosTests.swift */,
+				9D6F3AD12473D6C4008AABAC /* TwoSumTests.swift */,
 				9D8837772461154D00E7650E /* Info.plist */,
 			);
 			path = AlgosTests;
@@ -175,6 +185,8 @@
 				9D829FBA247107D500AF04D5 /* IntegerPalindrome.swift */,
 				9D829FBC2471087200AF04D5 /* MostRepeatedChar.swift */,
 				9D829FC52471268400AF04D5 /* ChangeStringWithOffsetNumber.swift */,
+				9D6F3ACB2473C215008AABAC /* MoveZeros.swift */,
+				9D6F3ACF2473D6B4008AABAC /* TwoSum.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -359,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D8837632461154C00E7650E /* ViewController.swift in Sources */,
+				9D6F3ACC2473C215008AABAC /* MoveZeros.swift in Sources */,
 				9D829FBD2471087200AF04D5 /* MostRepeatedChar.swift in Sources */,
 				9D829FBB247107D500AF04D5 /* IntegerPalindrome.swift in Sources */,
 				9D88375F2461154C00E7650E /* AppDelegate.swift in Sources */,
@@ -367,6 +380,7 @@
 				9D8837882461217300E7650E /* SortArrayOfZeroOnes.swift in Sources */,
 				9D829FB92471078900AF04D5 /* MergeIntervals.swift in Sources */,
 				9D883782246120E900E7650E /* FizzBuzz.swift in Sources */,
+				9D6F3AD02473D6B4008AABAC /* TwoSum.swift in Sources */,
 				9D8837862461215800E7650E /* Palindrome.swift in Sources */,
 				9D829FC62471268400AF04D5 /* ChangeStringWithOffsetNumber.swift in Sources */,
 				9D8837842461213F00E7650E /* MaximumDifference.swift in Sources */,
@@ -379,6 +393,7 @@
 			files = (
 				9D829FC12471093400AF04D5 /* IntegerPalindromeTests.swift in Sources */,
 				9D88378E2461561A00E7650E /* PalindromeTests.swift in Sources */,
+				9D6F3ACE2473C228008AABAC /* MoveZerosTests.swift in Sources */,
 				9D88379024615B6C00E7650E /* SortArrayOfZeroOnesTests.swift in Sources */,
 				9D8837762461154D00E7650E /* FizzBuzzTests.swift in Sources */,
 				9D829FC8247126A800AF04D5 /* ChangeStringWithOffsetNumberTests.swift in Sources */,
@@ -386,6 +401,7 @@
 				9D8837922461661400E7650E /* SumElementsInArrayTests.swift in Sources */,
 				9D88378C2461468700E7650E /* MaximumDifferenceTests.swift in Sources */,
 				9D829FBF247108EF00AF04D5 /* MergeIntervalsTests.swift in Sources */,
+				9D6F3AD22473D6C4008AABAC /* TwoSumTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

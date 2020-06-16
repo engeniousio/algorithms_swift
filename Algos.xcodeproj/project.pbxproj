@@ -19,6 +19,8 @@
 		9D829FC32471095500AF04D5 /* MostRepeatedCharTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D829FC22471095500AF04D5 /* MostRepeatedCharTests.swift */; };
 		9D829FC62471268400AF04D5 /* ChangeStringWithOffsetNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D829FC52471268400AF04D5 /* ChangeStringWithOffsetNumber.swift */; };
 		9D829FC8247126A800AF04D5 /* ChangeStringWithOffsetNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D829FC7247126A800AF04D5 /* ChangeStringWithOffsetNumberTests.swift */; };
+		9D8730CD2496180C007FC042 /* Sortings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8730CC2496180C007FC042 /* Sortings.swift */; };
+		9D8730CF2496181E007FC042 /* SortingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8730CE2496181E007FC042 /* SortingsTests.swift */; };
 		9D88375F2461154C00E7650E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88375E2461154C00E7650E /* AppDelegate.swift */; };
 		9D8837612461154C00E7650E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8837602461154C00E7650E /* SceneDelegate.swift */; };
 		9D8837632461154C00E7650E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8837622461154C00E7650E /* ViewController.swift */; };
@@ -71,6 +73,8 @@
 		9D829FC22471095500AF04D5 /* MostRepeatedCharTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostRepeatedCharTests.swift; sourceTree = "<group>"; };
 		9D829FC52471268400AF04D5 /* ChangeStringWithOffsetNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeStringWithOffsetNumber.swift; sourceTree = "<group>"; };
 		9D829FC7247126A800AF04D5 /* ChangeStringWithOffsetNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeStringWithOffsetNumberTests.swift; sourceTree = "<group>"; };
+		9D8730CC2496180C007FC042 /* Sortings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sortings.swift; sourceTree = "<group>"; };
+		9D8730CE2496181E007FC042 /* SortingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingsTests.swift; sourceTree = "<group>"; };
 		9D88375B2461154C00E7650E /* Algos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D88375E2461154C00E7650E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D8837602461154C00E7650E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -178,6 +182,7 @@
 				9D6F3AD12473D6C4008AABAC /* TwoSumTests.swift */,
 				9D8BEC9F248B7C190019009F /* PrimeNumberTests.swift */,
 				9D8BECA3248B88AE0019009F /* TimeInWordsTests.swift */,
+				9D8730CE2496181E007FC042 /* SortingsTests.swift */,
 				9D8837772461154D00E7650E /* Info.plist */,
 			);
 			path = AlgosTests;
@@ -199,6 +204,7 @@
 				9D6F3ACF2473D6B4008AABAC /* TwoSum.swift */,
 				9D8BEC9D248B79300019009F /* PrimeNumber.swift */,
 				9D8BECA1248B82A80019009F /* TimeInWords.swift */,
+				9D8730CC2496180C007FC042 /* Sortings.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -392,6 +398,7 @@
 				9D88378A2461219F00E7650E /* SumElementsInArray.swift in Sources */,
 				9D8BEC9E248B79300019009F /* PrimeNumber.swift in Sources */,
 				9D8837882461217300E7650E /* SortArrayOfZeroOnes.swift in Sources */,
+				9D8730CD2496180C007FC042 /* Sortings.swift in Sources */,
 				9D829FB92471078900AF04D5 /* MergeIntervals.swift in Sources */,
 				9D883782246120E900E7650E /* FizzBuzz.swift in Sources */,
 				9D6F3AD02473D6B4008AABAC /* TwoSum.swift in Sources */,
@@ -417,6 +424,7 @@
 				9D8BECA4248B88AE0019009F /* TimeInWordsTests.swift in Sources */,
 				9D88378C2461468700E7650E /* MaximumDifferenceTests.swift in Sources */,
 				9D829FBF247108EF00AF04D5 /* MergeIntervalsTests.swift in Sources */,
+				9D8730CF2496181E007FC042 /* SortingsTests.swift in Sources */,
 				9D6F3AD22473D6C4008AABAC /* TwoSumTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -25,9 +25,12 @@ class PrimeNumber {
         if num < 2 {
             return false
         }
-
-        for number in 2..<num where num % number == 0 {
-            return false
+        var number = 2
+        for dividend in 2..<(number * number) where (number * number) < num {
+            if num % dividend == 0 {
+                return false
+            }
+            number += 1
         }
         return true
     }

@@ -11,13 +11,6 @@ import XCTest
 @testable import Algos
 
 class PrimeNumberTest: XCTestCase {
-//    func testIntegerPalindrome() {
-//        let num = 1234321
-//        let integerPalindrome = IntegerPalindrome()
-//        let actualResult = integerPalindrome.isPalindrome(num)
-//
-//        XCTAssertTrue(actualResult)
-//    }
 
     func testPrime() {
         let primeNumber = PrimeNumber()

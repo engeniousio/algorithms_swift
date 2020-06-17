@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D2B55C12499F48B007C8319 /* BasicRecursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B55C02499F48B007C8319 /* BasicRecursion.swift */; };
+		9D2B55C3249A0474007C8319 /* BasicRecursionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B55C2249A0474007C8319 /* BasicRecursionTests.swift */; };
 		9D6F3ACC2473C215008AABAC /* MoveZeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6F3ACB2473C215008AABAC /* MoveZeros.swift */; };
 		9D6F3ACE2473C228008AABAC /* MoveZerosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6F3ACD2473C228008AABAC /* MoveZerosTests.swift */; };
 		9D6F3AD02473D6B4008AABAC /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6F3ACF2473D6B4008AABAC /* TwoSum.swift */; };
@@ -61,6 +63,8 @@
 		57F84A732506027DF0F05B1C /* Pods-AlgosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgosTests.release.xcconfig"; path = "Target Support Files/Pods-AlgosTests/Pods-AlgosTests.release.xcconfig"; sourceTree = "<group>"; };
 		5E831044CD67240C5089A5F2 /* Pods_Algos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Algos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C0A6AC0827DD521A77B649E /* Pods-Algos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algos.release.xcconfig"; path = "Target Support Files/Pods-Algos/Pods-Algos.release.xcconfig"; sourceTree = "<group>"; };
+		9D2B55C02499F48B007C8319 /* BasicRecursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicRecursion.swift; sourceTree = "<group>"; };
+		9D2B55C2249A0474007C8319 /* BasicRecursionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicRecursionTests.swift; sourceTree = "<group>"; };
 		9D6F3ACB2473C215008AABAC /* MoveZeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeros.swift; sourceTree = "<group>"; };
 		9D6F3ACD2473C228008AABAC /* MoveZerosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZerosTests.swift; sourceTree = "<group>"; };
 		9D6F3ACF2473D6B4008AABAC /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
@@ -154,7 +158,6 @@
 		9D88375D2461154C00E7650E /* Algos */ = {
 			isa = PBXGroup;
 			children = (
-				9D88378024611E9700E7650E /* Algorithms */,
 				9D88375E2461154C00E7650E /* AppDelegate.swift */,
 				9D8837602461154C00E7650E /* SceneDelegate.swift */,
 				9D8837622461154C00E7650E /* ViewController.swift */,
@@ -162,6 +165,7 @@
 				9D8837672461154D00E7650E /* Assets.xcassets */,
 				9D8837692461154D00E7650E /* LaunchScreen.storyboard */,
 				9D88376C2461154D00E7650E /* Info.plist */,
+				9D88378024611E9700E7650E /* Algorithms */,
 			);
 			path = Algos;
 			sourceTree = "<group>";
@@ -183,6 +187,7 @@
 				9D8BEC9F248B7C190019009F /* PrimeNumberTests.swift */,
 				9D8BECA3248B88AE0019009F /* TimeInWordsTests.swift */,
 				9D8730CE2496181E007FC042 /* SortingsTests.swift */,
+				9D2B55C2249A0474007C8319 /* BasicRecursionTests.swift */,
 				9D8837772461154D00E7650E /* Info.plist */,
 			);
 			path = AlgosTests;
@@ -205,6 +210,7 @@
 				9D8BEC9D248B79300019009F /* PrimeNumber.swift */,
 				9D8BECA1248B82A80019009F /* TimeInWords.swift */,
 				9D8730CC2496180C007FC042 /* Sortings.swift */,
+				9D2B55C02499F48B007C8319 /* BasicRecursion.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -401,6 +407,7 @@
 				9D8730CD2496180C007FC042 /* Sortings.swift in Sources */,
 				9D829FB92471078900AF04D5 /* MergeIntervals.swift in Sources */,
 				9D883782246120E900E7650E /* FizzBuzz.swift in Sources */,
+				9D2B55C12499F48B007C8319 /* BasicRecursion.swift in Sources */,
 				9D6F3AD02473D6B4008AABAC /* TwoSum.swift in Sources */,
 				9D8837862461215800E7650E /* Palindrome.swift in Sources */,
 				9D829FC62471268400AF04D5 /* ChangeStringWithOffsetNumber.swift in Sources */,
@@ -425,6 +432,7 @@
 				9D88378C2461468700E7650E /* MaximumDifferenceTests.swift in Sources */,
 				9D829FBF247108EF00AF04D5 /* MergeIntervalsTests.swift in Sources */,
 				9D8730CF2496181E007FC042 /* SortingsTests.swift in Sources */,
+				9D2B55C3249A0474007C8319 /* BasicRecursionTests.swift in Sources */,
 				9D6F3AD22473D6C4008AABAC /* TwoSumTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

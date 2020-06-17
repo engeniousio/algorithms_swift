@@ -14,7 +14,9 @@ class BasicRecursion {
 
     func iterativeFibonacci(_ number: Int) -> Int {
 
-        guard number == 1 || number == 2  else { return 1 }
+        if number == 1 || number == 2 {
+            return 1
+        }
 
         var fibo1 = 1
         var fibo2 = 1
@@ -34,7 +36,9 @@ class BasicRecursion {
     // F(number) = F(number - 1) + F(number - 2)
     func recursiveFibonacci(_ number: Int) -> Int {
 
-        guard number == 1 || number == 2  else { return 1 }
+        if number == 1 || number == 2 {
+            return 1
+        }
 
         return recursiveFibonacci(number - 1) + recursiveFibonacci(number - 2)
 
@@ -49,7 +53,7 @@ class BasicRecursion {
 
     func factorial(_ n: Int) -> Int {
 
-        guard n == 1 else { return 1 }
+        guard n != 1 else { return 1 }
 
         return n * factorial(n - 1)
 

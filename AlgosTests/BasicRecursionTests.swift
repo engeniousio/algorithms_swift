@@ -12,7 +12,7 @@ import XCTest
 
 class BasicRecursionTest: XCTestCase {
 
-    func iterativeFiboTest() {
+    func testIterativeFiboTest() {
         
         let number = 9
         let basicRecursion = BasicRecursion()
@@ -22,7 +22,7 @@ class BasicRecursionTest: XCTestCase {
         XCTAssertEqual(expectedResult, actualResult)
     }
 
-    func recursionFiboTest() {
+    func testRecursionFiboTest() {
         
         let number = 9
         let basicRecursion = BasicRecursion()
@@ -32,7 +32,7 @@ class BasicRecursionTest: XCTestCase {
         XCTAssertEqual(expectedResult, actualResult)
     }
 
-    func recursionFactorialTest() {
+    func testRecursionFactorialTest() {
         
         let number = 5
         let basicRecursion = BasicRecursion()
@@ -42,7 +42,7 @@ class BasicRecursionTest: XCTestCase {
         XCTAssertEqual(expectedResult, actualResult)
     }
 
-    func recursionSumOfDigitsTest() {
+    func testRecursionSumOfDigitsTest() {
         
         let number = 12345
         let basicRecursion = BasicRecursion()

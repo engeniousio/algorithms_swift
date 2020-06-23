@@ -10,9 +10,9 @@ import Foundation
 import XCTest
 @testable import Algos
 
-class SortArrayOfZeroOnesTests {
+class SortArrayOfZeroOnesTests: XCTestCase {
     
-    func sortArray() {
+    func testSortArray() {
 
         var arr = [0, 1, 1, 0, 0, 1, 1, 1, 0]
         let sortArrayOfZeroOnes = SortArrayOfZeroOnes()
@@ -23,7 +23,7 @@ class SortArrayOfZeroOnesTests {
         XCTAssertEqual(arr, expectedValue)
     }
 
-    func sortEmptyArray() {
+    func testSortEmptyArray() {
 
         var arr: [Int] = []
         let sortArrayOfZeroOnes = SortArrayOfZeroOnes()
@@ -34,7 +34,7 @@ class SortArrayOfZeroOnesTests {
         XCTAssertEqual(arr, expectedValue)
     }
 
-    func sortOneElementArray() {
+    func testSortOneElementArray() {
         
         var arr = [1]
         let sortArrayOfZeroOnes = SortArrayOfZeroOnes()

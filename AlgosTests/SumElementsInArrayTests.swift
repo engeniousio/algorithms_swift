@@ -10,7 +10,7 @@ import Foundation
 import XCTest
 @testable import Algos
 
-class SumElementsInArrayTests {
+class SumElementsInArrayTests: XCTestCase {
     
     func testSumElements() {
         

@@ -13,7 +13,7 @@ import XCTest
 class MaximumDifferenceTests: XCTestCase {
 
     func testMaxDifference() {
-        let arr : [Int] = [2, 1, 9, -5, 10, 4]
+        let arr: [Int] = [2, 1, 9, -5, 10, 4]
         let expectedResult = 15
         
         let maximumDifference = MaximumDifference()
@@ -22,7 +22,7 @@ class MaximumDifferenceTests: XCTestCase {
     }
     
     func testMaxDifferenceEmptyArray() {
-        let arr : [Int] = []
+        let arr: [Int] = []
         let expectedResult = -1
         
         let maximumDifference = MaximumDifference()
@@ -31,7 +31,7 @@ class MaximumDifferenceTests: XCTestCase {
     }
     
     func testMaxDifferenceOneElementInArray() {
-        let arr : [Int] = [2]
+        let arr: [Int] = [2]
         let expectedResult = 0
         
         let maximumDifference = MaximumDifference()
@@ -40,7 +40,7 @@ class MaximumDifferenceTests: XCTestCase {
     }
     
     func testMaxDifferenceNotUniqueElements() {
-        let arr : [Int] = [2, 2, 2, 2, 2, 2]
+        let arr: [Int] = [2, 2, 2, 2, 2, 2]
         let expectedResult = 0
         
         let maximumDifference = MaximumDifference()

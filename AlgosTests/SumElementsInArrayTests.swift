@@ -17,7 +17,7 @@ class SumElementsInArrayTests: XCTestCase {
         let array = [1, 5, -5, 10, 4]
         let sumElementsInArray = SumElementsInArray()
         
-        let expectedResult = 15;
+        let expectedResult = 15
         let actualResult = sumElementsInArray.sumElements(arr: array)
         
         XCTAssertEqual(expectedResult, actualResult)

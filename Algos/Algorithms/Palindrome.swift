@@ -36,8 +36,8 @@ class Palindrome {
         for i in 0..<str.count / 2 {
             let leftChar = str[str.index(leftIndex, offsetBy: i)]
             let rightChar = str[str.index(rightIndex, offsetBy: -i)]
-            if (leftChar != rightChar) {
-                return false;
+            if leftChar != rightChar {
+                return false
             }
         }
         return true

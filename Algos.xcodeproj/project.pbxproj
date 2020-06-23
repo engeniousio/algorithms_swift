@@ -13,6 +13,8 @@
 		9D7FFD3024A2C4DF0041C1E8 /* ChangeStringWithOffsetNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FFD2F24A2C4DF0041C1E8 /* ChangeStringWithOffsetNumberTests.swift */; };
 		9D7FFD3224A2C7720041C1E8 /* MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FFD3124A2C7720041C1E8 /* MergeIntervals.swift */; };
 		9D7FFD3424A2C79E0041C1E8 /* MergeIntervalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FFD3324A2C79E0041C1E8 /* MergeIntervalsTests.swift */; };
+		9D7FFD3824A2CC800041C1E8 /* IntegerPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FFD3724A2CC800041C1E8 /* IntegerPalindrome.swift */; };
+		9D7FFD3A24A2CCB10041C1E8 /* IntegerPalindromeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FFD3924A2CCB10041C1E8 /* IntegerPalindromeTests.swift */; };
 		9D88375F2461154C00E7650E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88375E2461154C00E7650E /* AppDelegate.swift */; };
 		9D8837612461154C00E7650E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8837602461154C00E7650E /* SceneDelegate.swift */; };
 		9D8837632461154C00E7650E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8837622461154C00E7650E /* ViewController.swift */; };
@@ -49,6 +51,8 @@
 		9D7FFD2F24A2C4DF0041C1E8 /* ChangeStringWithOffsetNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeStringWithOffsetNumberTests.swift; sourceTree = "<group>"; };
 		9D7FFD3124A2C7720041C1E8 /* MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervals.swift; sourceTree = "<group>"; };
 		9D7FFD3324A2C79E0041C1E8 /* MergeIntervalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervalsTests.swift; sourceTree = "<group>"; };
+		9D7FFD3724A2CC800041C1E8 /* IntegerPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerPalindrome.swift; sourceTree = "<group>"; };
+		9D7FFD3924A2CCB10041C1E8 /* IntegerPalindromeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerPalindromeTests.swift; sourceTree = "<group>"; };
 		9D88375B2461154C00E7650E /* Algos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D88375E2461154C00E7650E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D8837602461154C00E7650E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -140,6 +144,7 @@
 				9D8837912461661400E7650E /* SumElementsInArrayTests.swift */,
 				9D7FFD2F24A2C4DF0041C1E8 /* ChangeStringWithOffsetNumberTests.swift */,
 				9D7FFD3324A2C79E0041C1E8 /* MergeIntervalsTests.swift */,
+				9D7FFD3924A2CCB10041C1E8 /* IntegerPalindromeTests.swift */,
 			);
 			path = AlgosTests;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				9D8837892461219F00E7650E /* SumElementsInArray.swift */,
 				9D7FFD2D24A2C4A10041C1E8 /* ChangeStringWithOffsetNumber.swift */,
 				9D7FFD3124A2C7720041C1E8 /* MergeIntervals.swift */,
+				9D7FFD3724A2CC800041C1E8 /* IntegerPalindrome.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -354,6 +360,7 @@
 				9D88378A2461219F00E7650E /* SumElementsInArray.swift in Sources */,
 				9D8837882461217300E7650E /* SortArrayOfZeroOnes.swift in Sources */,
 				9D883782246120E900E7650E /* FizzBuzz.swift in Sources */,
+				9D7FFD3824A2CC800041C1E8 /* IntegerPalindrome.swift in Sources */,
 				9D8837862461215800E7650E /* Palindrome.swift in Sources */,
 				9D8837842461213F00E7650E /* MaximumDifference.swift in Sources */,
 			);
@@ -366,6 +373,7 @@
 				9D7FFD3424A2C79E0041C1E8 /* MergeIntervalsTests.swift in Sources */,
 				9D88378E2461561A00E7650E /* PalindromeTests.swift in Sources */,
 				9D88379024615B6C00E7650E /* SortArrayOfZeroOnesTests.swift in Sources */,
+				9D7FFD3A24A2CCB10041C1E8 /* IntegerPalindromeTests.swift in Sources */,
 				9D8837762461154D00E7650E /* FizzBuzzTests.swift in Sources */,
 				9D8837922461661400E7650E /* SumElementsInArrayTests.swift in Sources */,
 				9D7FFD3024A2C4DF0041C1E8 /* ChangeStringWithOffsetNumberTests.swift in Sources */,

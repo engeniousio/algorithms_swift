@@ -29,6 +29,8 @@
 		9D7FFD5424A2F5B70041C1E8 /* SortingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FFD5324A2F5B70041C1E8 /* SortingsTests.swift */; };
 		9D7FFD5624A2F7280041C1E8 /* BasicRecursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FFD5524A2F7280041C1E8 /* BasicRecursion.swift */; };
 		9D7FFD5824A2F7C60041C1E8 /* BasicRecursionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FFD5724A2F7C60041C1E8 /* BasicRecursionTests.swift */; };
+		9D7FFD5A24A2F9B10041C1E8 /* BasicStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FFD5924A2F9B10041C1E8 /* BasicStack.swift */; };
+		9D7FFD5C24A2FA840041C1E8 /* BasicStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FFD5B24A2FA840041C1E8 /* BasicStackTests.swift */; };
 		9D88375F2461154C00E7650E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88375E2461154C00E7650E /* AppDelegate.swift */; };
 		9D8837612461154C00E7650E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8837602461154C00E7650E /* SceneDelegate.swift */; };
 		9D8837632461154C00E7650E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8837622461154C00E7650E /* ViewController.swift */; };
@@ -81,6 +83,8 @@
 		9D7FFD5324A2F5B70041C1E8 /* SortingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingsTests.swift; sourceTree = "<group>"; };
 		9D7FFD5524A2F7280041C1E8 /* BasicRecursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicRecursion.swift; sourceTree = "<group>"; };
 		9D7FFD5724A2F7C60041C1E8 /* BasicRecursionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicRecursionTests.swift; sourceTree = "<group>"; };
+		9D7FFD5924A2F9B10041C1E8 /* BasicStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicStack.swift; sourceTree = "<group>"; };
+		9D7FFD5B24A2FA840041C1E8 /* BasicStackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicStackTests.swift; sourceTree = "<group>"; };
 		9D88375B2461154C00E7650E /* Algos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D88375E2461154C00E7650E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D8837602461154C00E7650E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -180,6 +184,7 @@
 				9D7FFD4F24A2F21B0041C1E8 /* TimeInWordsTests.swift */,
 				9D7FFD5324A2F5B70041C1E8 /* SortingsTests.swift */,
 				9D7FFD5724A2F7C60041C1E8 /* BasicRecursionTests.swift */,
+				9D7FFD5B24A2FA840041C1E8 /* BasicStackTests.swift */,
 			);
 			path = AlgosTests;
 			sourceTree = "<group>";
@@ -202,6 +207,7 @@
 				9D7FFD4D24A2F1D80041C1E8 /* TimeInWords.swift */,
 				9D7FFD5124A2F4C10041C1E8 /* Sortings.swift */,
 				9D7FFD5524A2F7280041C1E8 /* BasicRecursion.swift */,
+				9D7FFD5924A2F9B10041C1E8 /* BasicStack.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -399,6 +405,7 @@
 				9D7FFD4024A2D8140041C1E8 /* MoveZeros.swift in Sources */,
 				9D7FFD3224A2C7720041C1E8 /* MergeIntervals.swift in Sources */,
 				9D7FFD2E24A2C4A10041C1E8 /* ChangeStringWithOffsetNumber.swift in Sources */,
+				9D7FFD5A24A2F9B10041C1E8 /* BasicStack.swift in Sources */,
 				9D88375F2461154C00E7650E /* AppDelegate.swift in Sources */,
 				9D7FFD3C24A2CEC50041C1E8 /* MostRepeatedChar.swift in Sources */,
 				9D8837612461154C00E7650E /* SceneDelegate.swift in Sources */,
@@ -430,6 +437,7 @@
 				9D7FFD3024A2C4DF0041C1E8 /* ChangeStringWithOffsetNumberTests.swift in Sources */,
 				9D7FFD5024A2F21B0041C1E8 /* TimeInWordsTests.swift in Sources */,
 				9D88378C2461468700E7650E /* MaximumDifferenceTests.swift in Sources */,
+				9D7FFD5C24A2FA840041C1E8 /* BasicStackTests.swift in Sources */,
 				9D7FFD3E24A2CEED0041C1E8 /* MostRepeatedCharTests.swift in Sources */,
 				9D7FFD5424A2F5B70041C1E8 /* SortingsTests.swift in Sources */,
 				9D7FFD5824A2F7C60041C1E8 /* BasicRecursionTests.swift in Sources */,

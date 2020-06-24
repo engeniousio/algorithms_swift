@@ -31,6 +31,8 @@
 		9D7FFD5824A2F7C60041C1E8 /* BasicRecursionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FFD5724A2F7C60041C1E8 /* BasicRecursionTests.swift */; };
 		9D7FFD5A24A2F9B10041C1E8 /* BasicStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FFD5924A2F9B10041C1E8 /* BasicStack.swift */; };
 		9D7FFD5C24A2FA840041C1E8 /* BasicStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FFD5B24A2FA840041C1E8 /* BasicStackTests.swift */; };
+		9D7FFD5E24A33EBF0041C1E8 /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FFD5D24A33EBF0041C1E8 /* GroupAnagrams.swift */; };
+		9D7FFD6024A3435F0041C1E8 /* GroupAnagramsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FFD5F24A3435F0041C1E8 /* GroupAnagramsTests.swift */; };
 		9D88375F2461154C00E7650E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88375E2461154C00E7650E /* AppDelegate.swift */; };
 		9D8837612461154C00E7650E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8837602461154C00E7650E /* SceneDelegate.swift */; };
 		9D8837632461154C00E7650E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8837622461154C00E7650E /* ViewController.swift */; };
@@ -85,6 +87,8 @@
 		9D7FFD5724A2F7C60041C1E8 /* BasicRecursionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicRecursionTests.swift; sourceTree = "<group>"; };
 		9D7FFD5924A2F9B10041C1E8 /* BasicStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicStack.swift; sourceTree = "<group>"; };
 		9D7FFD5B24A2FA840041C1E8 /* BasicStackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicStackTests.swift; sourceTree = "<group>"; };
+		9D7FFD5D24A33EBF0041C1E8 /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
+		9D7FFD5F24A3435F0041C1E8 /* GroupAnagramsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagramsTests.swift; sourceTree = "<group>"; };
 		9D88375B2461154C00E7650E /* Algos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D88375E2461154C00E7650E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D8837602461154C00E7650E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -185,6 +189,7 @@
 				9D7FFD5324A2F5B70041C1E8 /* SortingsTests.swift */,
 				9D7FFD5724A2F7C60041C1E8 /* BasicRecursionTests.swift */,
 				9D7FFD5B24A2FA840041C1E8 /* BasicStackTests.swift */,
+				9D7FFD5F24A3435F0041C1E8 /* GroupAnagramsTests.swift */,
 			);
 			path = AlgosTests;
 			sourceTree = "<group>";
@@ -208,6 +213,7 @@
 				9D7FFD5124A2F4C10041C1E8 /* Sortings.swift */,
 				9D7FFD5524A2F7280041C1E8 /* BasicRecursion.swift */,
 				9D7FFD5924A2F9B10041C1E8 /* BasicStack.swift */,
+				9D7FFD5D24A33EBF0041C1E8 /* GroupAnagrams.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -401,6 +407,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D8837632461154C00E7650E /* ViewController.swift in Sources */,
+				9D7FFD5E24A33EBF0041C1E8 /* GroupAnagrams.swift in Sources */,
 				9D7FFD4E24A2F1D80041C1E8 /* TimeInWords.swift in Sources */,
 				9D7FFD4024A2D8140041C1E8 /* MoveZeros.swift in Sources */,
 				9D7FFD3224A2C7720041C1E8 /* MergeIntervals.swift in Sources */,
@@ -431,6 +438,7 @@
 				9D7FFD4424A2D8730041C1E8 /* MoveZerosTests.swift in Sources */,
 				9D88379024615B6C00E7650E /* SortArrayOfZeroOnesTests.swift in Sources */,
 				9D7FFD3A24A2CCB10041C1E8 /* IntegerPalindromeTests.swift in Sources */,
+				9D7FFD6024A3435F0041C1E8 /* GroupAnagramsTests.swift in Sources */,
 				9D8837762461154D00E7650E /* FizzBuzzTests.swift in Sources */,
 				9D7FFD4C24A2EDFF0041C1E8 /* PrimeNumberTests.swift in Sources */,
 				9D8837922461661400E7650E /* SumElementsInArrayTests.swift in Sources */,

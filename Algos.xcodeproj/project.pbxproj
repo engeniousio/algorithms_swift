@@ -21,6 +21,8 @@
 		9D7FFD4424A2D8730041C1E8 /* MoveZerosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FFD4324A2D8730041C1E8 /* MoveZerosTests.swift */; };
 		9D7FFD4624A2D9440041C1E8 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FFD4524A2D9440041C1E8 /* TwoSum.swift */; };
 		9D7FFD4824A2E80F0041C1E8 /* TwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FFD4724A2E80E0041C1E8 /* TwoSumTests.swift */; };
+		9D7FFD4A24A2ECE60041C1E8 /* PrimeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FFD4924A2ECE60041C1E8 /* PrimeNumber.swift */; };
+		9D7FFD4C24A2EDFF0041C1E8 /* PrimeNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FFD4B24A2EDFF0041C1E8 /* PrimeNumberTests.swift */; };
 		9D88375F2461154C00E7650E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88375E2461154C00E7650E /* AppDelegate.swift */; };
 		9D8837612461154C00E7650E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8837602461154C00E7650E /* SceneDelegate.swift */; };
 		9D8837632461154C00E7650E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8837622461154C00E7650E /* ViewController.swift */; };
@@ -65,6 +67,8 @@
 		9D7FFD4324A2D8730041C1E8 /* MoveZerosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZerosTests.swift; sourceTree = "<group>"; };
 		9D7FFD4524A2D9440041C1E8 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		9D7FFD4724A2E80E0041C1E8 /* TwoSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTests.swift; sourceTree = "<group>"; };
+		9D7FFD4924A2ECE60041C1E8 /* PrimeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumber.swift; sourceTree = "<group>"; };
+		9D7FFD4B24A2EDFF0041C1E8 /* PrimeNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumberTests.swift; sourceTree = "<group>"; };
 		9D88375B2461154C00E7650E /* Algos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D88375E2461154C00E7650E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D8837602461154C00E7650E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -160,6 +164,7 @@
 				9D7FFD3D24A2CEED0041C1E8 /* MostRepeatedCharTests.swift */,
 				9D7FFD4324A2D8730041C1E8 /* MoveZerosTests.swift */,
 				9D7FFD4724A2E80E0041C1E8 /* TwoSumTests.swift */,
+				9D7FFD4B24A2EDFF0041C1E8 /* PrimeNumberTests.swift */,
 			);
 			path = AlgosTests;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 				9D7FFD3B24A2CEC50041C1E8 /* MostRepeatedChar.swift */,
 				9D7FFD3F24A2D8140041C1E8 /* MoveZeros.swift */,
 				9D7FFD4524A2D9440041C1E8 /* TwoSum.swift */,
+				9D7FFD4924A2ECE60041C1E8 /* PrimeNumber.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -377,6 +383,7 @@
 				9D88375F2461154C00E7650E /* AppDelegate.swift in Sources */,
 				9D7FFD3C24A2CEC50041C1E8 /* MostRepeatedChar.swift in Sources */,
 				9D8837612461154C00E7650E /* SceneDelegate.swift in Sources */,
+				9D7FFD4A24A2ECE60041C1E8 /* PrimeNumber.swift in Sources */,
 				9D88378A2461219F00E7650E /* SumElementsInArray.swift in Sources */,
 				9D8837882461217300E7650E /* SortArrayOfZeroOnes.swift in Sources */,
 				9D883782246120E900E7650E /* FizzBuzz.swift in Sources */,
@@ -397,6 +404,7 @@
 				9D88379024615B6C00E7650E /* SortArrayOfZeroOnesTests.swift in Sources */,
 				9D7FFD3A24A2CCB10041C1E8 /* IntegerPalindromeTests.swift in Sources */,
 				9D8837762461154D00E7650E /* FizzBuzzTests.swift in Sources */,
+				9D7FFD4C24A2EDFF0041C1E8 /* PrimeNumberTests.swift in Sources */,
 				9D8837922461661400E7650E /* SumElementsInArrayTests.swift in Sources */,
 				9D7FFD3024A2C4DF0041C1E8 /* ChangeStringWithOffsetNumberTests.swift in Sources */,
 				9D88378C2461468700E7650E /* MaximumDifferenceTests.swift in Sources */,

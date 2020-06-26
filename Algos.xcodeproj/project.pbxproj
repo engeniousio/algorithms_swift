@@ -49,6 +49,8 @@
 		9D88378E2461561A00E7650E /* PalindromeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88378D2461561A00E7650E /* PalindromeTests.swift */; };
 		9D88379024615B6C00E7650E /* SortArrayOfZeroOnesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88378F24615B6C00E7650E /* SortArrayOfZeroOnesTests.swift */; };
 		9D8837922461661400E7650E /* SumElementsInArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8837912461661400E7650E /* SumElementsInArrayTests.swift */; };
+		9D88FB0524A585C5008C582B /* RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88FB0424A585C5008C582B /* RemoveDuplicates.swift */; };
+		9D88FB0724A59E48008C582B /* RemoveDuplicatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88FB0624A59E48008C582B /* RemoveDuplicatesTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +111,8 @@
 		9D88378D2461561A00E7650E /* PalindromeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeTests.swift; sourceTree = "<group>"; };
 		9D88378F24615B6C00E7650E /* SortArrayOfZeroOnesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortArrayOfZeroOnesTests.swift; sourceTree = "<group>"; };
 		9D8837912461661400E7650E /* SumElementsInArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumElementsInArrayTests.swift; sourceTree = "<group>"; };
+		9D88FB0424A585C5008C582B /* RemoveDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
+		9D88FB0624A59E48008C582B /* RemoveDuplicatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesTests.swift; sourceTree = "<group>"; };
 		B68664080CAC97F534F5C7D0 /* Pods_Algos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Algos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF377CFC846BD6F6F71ECADA /* Pods-Algos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algos.debug.xcconfig"; path = "Target Support Files/Pods-Algos/Pods-Algos.debug.xcconfig"; sourceTree = "<group>"; };
 		FB650046EEE748FAF0EEEA72 /* Pods-AlgosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgosTests.release.xcconfig"; path = "Target Support Files/Pods-AlgosTests/Pods-AlgosTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -190,6 +194,7 @@
 				9D7FFD5724A2F7C60041C1E8 /* BasicRecursionTests.swift */,
 				9D7FFD5B24A2FA840041C1E8 /* BasicStackTests.swift */,
 				9D7FFD5F24A3435F0041C1E8 /* GroupAnagramsTests.swift */,
+				9D88FB0624A59E48008C582B /* RemoveDuplicatesTests.swift */,
 			);
 			path = AlgosTests;
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 				9D7FFD5524A2F7280041C1E8 /* BasicRecursion.swift */,
 				9D7FFD5924A2F9B10041C1E8 /* BasicStack.swift */,
 				9D7FFD5D24A33EBF0041C1E8 /* GroupAnagrams.swift */,
+				9D88FB0424A585C5008C582B /* RemoveDuplicates.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -425,6 +431,7 @@
 				9D7FFD4624A2D9440041C1E8 /* TwoSum.swift in Sources */,
 				9D7FFD3824A2CC800041C1E8 /* IntegerPalindrome.swift in Sources */,
 				9D8837862461215800E7650E /* Palindrome.swift in Sources */,
+				9D88FB0524A585C5008C582B /* RemoveDuplicates.swift in Sources */,
 				9D8837842461213F00E7650E /* MaximumDifference.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +453,7 @@
 				9D7FFD5024A2F21B0041C1E8 /* TimeInWordsTests.swift in Sources */,
 				9D88378C2461468700E7650E /* MaximumDifferenceTests.swift in Sources */,
 				9D7FFD5C24A2FA840041C1E8 /* BasicStackTests.swift in Sources */,
+				9D88FB0724A59E48008C582B /* RemoveDuplicatesTests.swift in Sources */,
 				9D7FFD3E24A2CEED0041C1E8 /* MostRepeatedCharTests.swift in Sources */,
 				9D7FFD5424A2F5B70041C1E8 /* SortingsTests.swift in Sources */,
 				9D7FFD5824A2F7C60041C1E8 /* BasicRecursionTests.swift in Sources */,

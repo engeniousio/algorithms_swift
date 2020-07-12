@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01C8AD3D2D824B9D9C7AC970 /* Pods_Algos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68664080CAC97F534F5C7D0 /* Pods_Algos.framework */; };
+		30D8B3EE81085EBEF8E4BFF8 /* Pods_AlgosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F5E37EC2DADFE88FBAE8D7 /* Pods_AlgosTests.framework */; };
+		9D07456F24BAE686005371C3 /* PrimeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D07456E24BAE686005371C3 /* PrimeNumber.swift */; };
+		9D07457124BAE6D1005371C3 /* PrimeNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D07457024BAE6D1005371C3 /* PrimeNumberTests.swift */; };
 		9D88375F2461154C00E7650E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88375E2461154C00E7650E /* AppDelegate.swift */; };
 		9D8837612461154C00E7650E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8837602461154C00E7650E /* SceneDelegate.swift */; };
 		9D8837632461154C00E7650E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8837622461154C00E7650E /* ViewController.swift */; };
@@ -36,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61F5E37EC2DADFE88FBAE8D7 /* Pods_AlgosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		664B2ECE21683485E85BF8E2 /* Pods-Algos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algos.release.xcconfig"; path = "Target Support Files/Pods-Algos/Pods-Algos.release.xcconfig"; sourceTree = "<group>"; };
+		770900B8CEB1A2D89C927496 /* Pods-AlgosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgosTests.debug.xcconfig"; path = "Target Support Files/Pods-AlgosTests/Pods-AlgosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D07456E24BAE686005371C3 /* PrimeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumber.swift; sourceTree = "<group>"; };
+		9D07457024BAE6D1005371C3 /* PrimeNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumberTests.swift; sourceTree = "<group>"; };
 		9D88375B2461154C00E7650E /* Algos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D88375E2461154C00E7650E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D8837602461154C00E7650E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +65,9 @@
 		9D88378D2461561A00E7650E /* PalindromeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeTests.swift; sourceTree = "<group>"; };
 		9D88378F24615B6C00E7650E /* SortArrayOfZeroOnesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortArrayOfZeroOnesTests.swift; sourceTree = "<group>"; };
 		9D8837912461661400E7650E /* SumElementsInArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumElementsInArrayTests.swift; sourceTree = "<group>"; };
+		B68664080CAC97F534F5C7D0 /* Pods_Algos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Algos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF377CFC846BD6F6F71ECADA /* Pods-Algos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algos.debug.xcconfig"; path = "Target Support Files/Pods-Algos/Pods-Algos.debug.xcconfig"; sourceTree = "<group>"; };
+		FB650046EEE748FAF0EEEA72 /* Pods-AlgosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgosTests.release.xcconfig"; path = "Target Support Files/Pods-AlgosTests/Pods-AlgosTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01C8AD3D2D824B9D9C7AC970 /* Pods_Algos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D8B3EE81085EBEF8E4BFF8 /* Pods_AlgosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +96,8 @@
 				9D88375D2461154C00E7650E /* Algos */,
 				9D8837742461154D00E7650E /* AlgosTests */,
 				9D88375C2461154C00E7650E /* Products */,
+				CD0FF61D634161F8DCB8D94B /* Pods */,
+				FC56C8B4D7B477BA4B195403 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,7 +113,6 @@
 		9D88375D2461154C00E7650E /* Algos */ = {
 			isa = PBXGroup;
 			children = (
-				9D88378024611E9700E7650E /* Algorithms */,
 				9D88375E2461154C00E7650E /* AppDelegate.swift */,
 				9D8837602461154C00E7650E /* SceneDelegate.swift */,
 				9D8837622461154C00E7650E /* ViewController.swift */,
@@ -105,6 +120,7 @@
 				9D8837672461154D00E7650E /* Assets.xcassets */,
 				9D8837692461154D00E7650E /* LaunchScreen.storyboard */,
 				9D88376C2461154D00E7650E /* Info.plist */,
+				9D88378024611E9700E7650E /* Algorithms */,
 			);
 			path = Algos;
 			sourceTree = "<group>";
@@ -112,12 +128,13 @@
 		9D8837742461154D00E7650E /* AlgosTests */ = {
 			isa = PBXGroup;
 			children = (
+				9D8837772461154D00E7650E /* Info.plist */,
 				9D8837752461154D00E7650E /* FizzBuzzTests.swift */,
 				9D88378B2461468700E7650E /* MaximumDifferenceTests.swift */,
 				9D88378D2461561A00E7650E /* PalindromeTests.swift */,
 				9D88378F24615B6C00E7650E /* SortArrayOfZeroOnesTests.swift */,
 				9D8837912461661400E7650E /* SumElementsInArrayTests.swift */,
-				9D8837772461154D00E7650E /* Info.plist */,
+				9D07457024BAE6D1005371C3 /* PrimeNumberTests.swift */,
 			);
 			path = AlgosTests;
 			sourceTree = "<group>";
@@ -130,8 +147,29 @@
 				9D8837852461215800E7650E /* Palindrome.swift */,
 				9D8837872461217300E7650E /* SortArrayOfZeroOnes.swift */,
 				9D8837892461219F00E7650E /* SumElementsInArray.swift */,
+				9D07456E24BAE686005371C3 /* PrimeNumber.swift */,
 			);
 			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		CD0FF61D634161F8DCB8D94B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF377CFC846BD6F6F71ECADA /* Pods-Algos.debug.xcconfig */,
+				664B2ECE21683485E85BF8E2 /* Pods-Algos.release.xcconfig */,
+				770900B8CEB1A2D89C927496 /* Pods-AlgosTests.debug.xcconfig */,
+				FB650046EEE748FAF0EEEA72 /* Pods-AlgosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC56C8B4D7B477BA4B195403 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B68664080CAC97F534F5C7D0 /* Pods_Algos.framework */,
+				61F5E37EC2DADFE88FBAE8D7 /* Pods_AlgosTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D88377A2461154D00E7650E /* Build configuration list for PBXNativeTarget "Algos" */;
 			buildPhases = (
+				64A8AB98F4ABCA9A22378AD7 /* [CP] Check Pods Manifest.lock */,
 				9D8837572461154C00E7650E /* Sources */,
 				9D8837582461154C00E7650E /* Frameworks */,
 				9D8837592461154C00E7650E /* Resources */,
+				9D7FFD2C24A20E940041C1E8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -158,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D88377D2461154D00E7650E /* Build configuration list for PBXNativeTarget "AlgosTests" */;
 			buildPhases = (
+				EBD80AC196CCB574DE0384B4 /* [CP] Check Pods Manifest.lock */,
 				9D88376D2461154D00E7650E /* Sources */,
 				9D88376E2461154D00E7650E /* Frameworks */,
 				9D88376F2461154D00E7650E /* Resources */,
@@ -230,12 +271,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64A8AB98F4ABCA9A22378AD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Algos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D7FFD2C24A20E940041C1E8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		EBD80AC196CCB574DE0384B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlgosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9D8837572461154C00E7650E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9D8837632461154C00E7650E /* ViewController.swift in Sources */,
+				9D07456F24BAE686005371C3 /* PrimeNumber.swift in Sources */,
 				9D88375F2461154C00E7650E /* AppDelegate.swift in Sources */,
 				9D8837612461154C00E7650E /* SceneDelegate.swift in Sources */,
 				9D88378A2461219F00E7650E /* SumElementsInArray.swift in Sources */,
@@ -250,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D07457124BAE6D1005371C3 /* PrimeNumberTests.swift in Sources */,
 				9D88378E2461561A00E7650E /* PalindromeTests.swift in Sources */,
 				9D88379024615B6C00E7650E /* SortArrayOfZeroOnesTests.swift in Sources */,
 				9D8837762461154D00E7650E /* FizzBuzzTests.swift in Sources */,
@@ -404,6 +511,7 @@
 		};
 		9D88377B2461154D00E7650E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF377CFC846BD6F6F71ECADA /* Pods-Algos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -422,6 +530,7 @@
 		};
 		9D88377C2461154D00E7650E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 664B2ECE21683485E85BF8E2 /* Pods-Algos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -440,6 +549,7 @@
 		};
 		9D88377E2461154D00E7650E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 770900B8CEB1A2D89C927496 /* Pods-AlgosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +572,7 @@
 		};
 		9D88377F2461154D00E7650E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB650046EEE748FAF0EEEA72 /* Pods-AlgosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

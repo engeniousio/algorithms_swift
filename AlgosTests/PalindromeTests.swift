@@ -32,7 +32,6 @@ class PalindromeTests: XCTestCase {
         XCTAssertEqual(expectedResult, actualResult)
     }
 
-
     func testEmptyPalindrome() {
         let str = ""
         let palindrome = Palindrome()

@@ -10,14 +10,14 @@ import Foundation
 import XCTest
 @testable import Algos
 
-class SumElementsInArrayTests {
+class SumElementsInArrayTests: XCTestCase {
     
     func testSumElements() {
         
         let array = [1, 5, -5, 10, 4]
         let sumElementsInArray = SumElementsInArray()
         
-        let expectedResult = 15;
+        let expectedResult = 15
         let actualResult = sumElementsInArray.sumElements(arr: array)
         
         XCTAssertEqual(expectedResult, actualResult)

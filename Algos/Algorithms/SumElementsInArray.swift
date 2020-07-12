@@ -17,7 +17,6 @@ import Foundation
 // 7. Runtime Complexity?
 // 8. Memory Complexity?
 
-
 public class SumElementsInArray {
     // You are given an array of integers. Please return sum of all elements
 
@@ -36,7 +35,7 @@ public class SumElementsInArray {
 
     // O(1)
     func firstElement(arr: [Int]) -> Int {
-        guard arr.count != 0 else { return -1 }
+        guard !arr.isEmpty else { return -1 }
 
         return arr[0]
     }
@@ -47,7 +46,6 @@ public class SumElementsInArray {
     // 2. Other processes in background
     // 3. Programming languages
 // Number of operation
-
 
 // Runtime complexity:  n + 2 => ~n  => O(n) -> linear time
 

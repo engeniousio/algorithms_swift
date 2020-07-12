@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		01C8AD3D2D824B9D9C7AC970 /* Pods_Algos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68664080CAC97F534F5C7D0 /* Pods_Algos.framework */; };
 		30D8B3EE81085EBEF8E4BFF8 /* Pods_AlgosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F5E37EC2DADFE88FBAE8D7 /* Pods_AlgosTests.framework */; };
+		9D07457B24BAEC9D005371C3 /* BasicRecursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D07457A24BAEC9D005371C3 /* BasicRecursion.swift */; };
+		9D07457D24BAECBF005371C3 /* BasicRecursionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D07457C24BAECBF005371C3 /* BasicRecursionTests.swift */; };
 		9D88375F2461154C00E7650E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88375E2461154C00E7650E /* AppDelegate.swift */; };
 		9D8837612461154C00E7650E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8837602461154C00E7650E /* SceneDelegate.swift */; };
 		9D8837632461154C00E7650E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8837622461154C00E7650E /* ViewController.swift */; };
@@ -41,6 +43,8 @@
 		61F5E37EC2DADFE88FBAE8D7 /* Pods_AlgosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		664B2ECE21683485E85BF8E2 /* Pods-Algos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algos.release.xcconfig"; path = "Target Support Files/Pods-Algos/Pods-Algos.release.xcconfig"; sourceTree = "<group>"; };
 		770900B8CEB1A2D89C927496 /* Pods-AlgosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgosTests.debug.xcconfig"; path = "Target Support Files/Pods-AlgosTests/Pods-AlgosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D07457A24BAEC9D005371C3 /* BasicRecursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicRecursion.swift; sourceTree = "<group>"; };
+		9D07457C24BAECBF005371C3 /* BasicRecursionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicRecursionTests.swift; sourceTree = "<group>"; };
 		9D88375B2461154C00E7650E /* Algos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D88375E2461154C00E7650E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D8837602461154C00E7650E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +134,7 @@
 				9D88378D2461561A00E7650E /* PalindromeTests.swift */,
 				9D88378F24615B6C00E7650E /* SortArrayOfZeroOnesTests.swift */,
 				9D8837912461661400E7650E /* SumElementsInArrayTests.swift */,
+				9D07457C24BAECBF005371C3 /* BasicRecursionTests.swift */,
 			);
 			path = AlgosTests;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 				9D8837852461215800E7650E /* Palindrome.swift */,
 				9D8837872461217300E7650E /* SortArrayOfZeroOnes.swift */,
 				9D8837892461219F00E7650E /* SumElementsInArray.swift */,
+				9D07457A24BAEC9D005371C3 /* BasicRecursion.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -338,6 +344,7 @@
 				9D88375F2461154C00E7650E /* AppDelegate.swift in Sources */,
 				9D8837612461154C00E7650E /* SceneDelegate.swift in Sources */,
 				9D88378A2461219F00E7650E /* SumElementsInArray.swift in Sources */,
+				9D07457B24BAEC9D005371C3 /* BasicRecursion.swift in Sources */,
 				9D8837882461217300E7650E /* SortArrayOfZeroOnes.swift in Sources */,
 				9D883782246120E900E7650E /* FizzBuzz.swift in Sources */,
 				9D8837862461215800E7650E /* Palindrome.swift in Sources */,
@@ -350,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D88378E2461561A00E7650E /* PalindromeTests.swift in Sources */,
+				9D07457D24BAECBF005371C3 /* BasicRecursionTests.swift in Sources */,
 				9D88379024615B6C00E7650E /* SortArrayOfZeroOnesTests.swift in Sources */,
 				9D8837762461154D00E7650E /* FizzBuzzTests.swift in Sources */,
 				9D8837922461661400E7650E /* SumElementsInArrayTests.swift in Sources */,

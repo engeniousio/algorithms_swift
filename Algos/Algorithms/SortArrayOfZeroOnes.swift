@@ -31,14 +31,14 @@ class SortArrayOfZeroOnes {
             count += element
         }
 
-        let endOfZerosIndex = arr.count - count;
+        let endOfZerosIndex = arr.count - count
 
         for i in 0..<endOfZerosIndex {
             arr[i] = 0
         }
 
         for i in endOfZerosIndex..<arr.count {
-            arr[i] = 1;
+            arr[i] = 1
         }
     }
 }

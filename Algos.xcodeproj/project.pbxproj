@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11D0E5672A1E442C00CB4A89 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D883781246120E900E7650E /* FizzBuzz.swift */; };
 		9D88375F2461154C00E7650E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88375E2461154C00E7650E /* AppDelegate.swift */; };
 		9D8837612461154C00E7650E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8837602461154C00E7650E /* SceneDelegate.swift */; };
 		9D8837632461154C00E7650E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8837622461154C00E7650E /* ViewController.swift */; };
@@ -255,6 +256,7 @@
 				9D8837762461154D00E7650E /* FizzBuzzTests.swift in Sources */,
 				9D8837922461661400E7650E /* SumElementsInArrayTests.swift in Sources */,
 				9D88378C2461468700E7650E /* MaximumDifferenceTests.swift in Sources */,
+				11D0E5672A1E442C00CB4A89 /* FizzBuzz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
